@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -23,14 +22,18 @@
        
         <div id="editor1">{this is javascript}</div>
           
-    
+  
 
     
  </body>
-<script src="./ace.js" type="text/javascript" charset="utf-8"></script>
-<script src="../node_modules/socket.io-client/dist/socket.io.js"></script>
-<script src="./editor.js"></script>
-<script src="./client.js"></script> 
+<script type="text/javascript"  src="http://localhost:3000/ace.js" charset="utf-8"></script>
+<!-- <script type="text/javascript" src="../node_modules/socket.io-client/dist/socket.io.js"></script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.2.0/socket.io.js" integrity="sha512-WL6WGKMPBiM9PnHRYIn5YEtq0Z8XP4fkVb4qy7PP4vhmYQErJ/dySyXuFIMDf1eEYCXCrQrMJfkNwKc9gsjTjA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!-- <script type="text/javascript" src="http://locahost:3000/editor.js"></script> -->
+<script  type="text/javascript" src="http://localhost:3000/client.js"></script> 
+<script>
+    var edit = ace.edit(editor1);
+</script>
 <!-- <script src="./ace.js"></script> -->
 
 </html>
