@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css" media="screen">
+        #editor1 { 
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+        }
+    </style>
+    
+</head>
+<body>
+    <h3>Realtime Editor/Collaboration</h3>
+    
+        <!-- <textarea rows="30" cols="50" id="editor" style="background-color:dimgrey;color:white" placeholder="Type Your Text..."></textarea> --> -->
+       
+        <div id="editor1">{this is javascript}</div>
+          
+    
+
+    
+ </body>
+<script src="./ace.js" type="text/javascript" charset="utf-8"></script>
+<script src="../node_modules/socket.io-client/dist/socket.io.js"></script>
+<script src="./editor.js"></script>
+<script src="./client.js"></script> 
+<!-- <script src="./ace.js"></script> -->
+
+</html>
